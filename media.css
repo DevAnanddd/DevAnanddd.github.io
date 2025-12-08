@@ -1,0 +1,16 @@
+.box{
+    height:100px;
+    width: 1000px;
+    background-color: lightgreen;
+}
+@media(max-width:768px){
+    .box{
+        background-color: mediumorchid;
+    }
+}
+@media(min-width:1024px){
+    .box{
+        background-color: crimson;
+    }
+}
+/*display none - hides the box*/
